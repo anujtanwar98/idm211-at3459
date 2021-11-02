@@ -1,5 +1,9 @@
 body {
-    background-color:#100C1A;
+    background-color: #000;
+}
+header {
+    background-color:rgb(18, 28, 31);
+    border-radius: 20px;
 }
 p {
     color: #fff;
@@ -34,4 +38,75 @@ h1, h2, h3, h4, h5, h6 {
 }   
 p{
     font-family:Tomkin-Regular, sans-serif;
+}
+.topnav{
+    text-align: center;
 }  
+.topnav a {
+    color: beige;
+    text-decoration: none;
+}
+.box1 {
+       width: 200px;
+       padding: 20px;
+       margin: 20px;
+       border-radius: 15px;
+       text-align: center;
+       background-color: rgb(0, 238, 226);
+}
+.box2 {
+        width: 200px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgb(0, 238, 226);
+}
+.box3 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
+.box4 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
+.box5 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
+.box6 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
+.box7 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
+.box8 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
+}
