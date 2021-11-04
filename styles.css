@@ -18,7 +18,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 .logo {
-    display: block;
+  width:70px; 
+  height:54px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,29 +43,31 @@ p{
 }
 .topnav{
     text-align: center;
+    word-spacing: 1em;
+    font-size: 1.25em;
 }  
 .topnav a {
-    color: beige;
+    color:#fff;
     text-decoration: none;
 }
 .box1 {
-       width: 200px;
-       padding: 20px;
-       margin: 20px;
-       border-radius: 15px;
-       text-align: center;
-       background-color: rgb(0, 238, 226);
+    width: 12.5em;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
 }
 .box2 {
-        width: 200px;
-        padding: 20px;
-        margin: 20px;
-        border-radius: 15px;
-        text-align: center;
-        background-color: rgb(0, 238, 226);
+    width: 12.5em;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 238, 226);
 }
 .box3 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
@@ -71,7 +75,7 @@ p{
     background-color: rgb(0, 238, 226);
 }
 .box4 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
@@ -79,7 +83,7 @@ p{
     background-color: rgb(0, 238, 226);
 }
 .box5 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
@@ -87,7 +91,7 @@ p{
     background-color: rgb(0, 238, 226);
 }
 .box6 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
@@ -95,7 +99,7 @@ p{
     background-color: rgb(0, 238, 226);
 }
 .box7 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
@@ -103,7 +107,7 @@ p{
     background-color: rgb(0, 238, 226);
 }
 .box8 {
-    width: 200px;
+    width: 12.5em;
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
