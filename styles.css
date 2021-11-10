@@ -25,6 +25,14 @@ ul{
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
+.icon {
+    width: 1.875em;
+    height: 1.875em;
+    margin-right: 0.5em;
+}
+.vector a {
+    text-decoration: none;
+}
 .logo {
   width:70px; 
   height:54px;
@@ -56,6 +64,26 @@ li {
     color:#fff;
     text-decoration: none;
 }
+.resume-text h1{
+    text-align: center;
+}
+.resume-text p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.resume-text a{
+    color: #000;
+    text-decoration: none;
+    font-family:Tomkin-Medium, sans-serif;
+}
+.resume-text a:hover {
+    background-color: #3d0017;
+    color: #5bffe9;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.75em;
+  }
 .box1 {
     width: 12.5em;
     padding: 20px;
