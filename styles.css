@@ -7,7 +7,7 @@
     src:url('fonts/tomkin-Regular.woff2');
    }
 body {
-    background-color: #f5e4dc;
+    background-color: #f5aa87;
     /*background-color: #ffccb5;*/
 }
 header {
@@ -51,8 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 .name-title{
     text-align: center; 
 }
+.about-me h1{
+    text-align: center;
+}
 .about-me p{
     font-size: 1.25em;
+    padding: 0.25em;
 }
 .topnav{
     text-align: center;
@@ -76,21 +80,25 @@ h1, h2, h3, h4, h5, h6 {
 .resume-text a{
     color: #000;
     text-decoration: none;
-    font-family:tomkin-medium, sans-serif;
+    font-family:tomkin-regular, sans-serif;
 }
 .resume-text a:hover {
-    background-color: #a24fbb;
+    background-color: #000000;
     color: #5bffe9;
     font-weight: bold;
     padding: 0.25em;
     margin: 0.25em;
-    border-radius: 0.75em;
+    border-radius: 0.5em;
   }    
 .edu, .exp {
     text-align: center;
+    font-size: 1.25em;
+}
+.message-text{
+    text-align: center;
 }
 .box1 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: 2em auto 2em;
     border: 0.5em solid;
@@ -100,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box2 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: auto auto 2em;
     border: 0.5em solid;
@@ -110,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box3 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: 2em auto 2em;
     border: 0.5em solid;
@@ -120,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box4 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: auto auto 2em;
     border: 0.5em solid;
@@ -130,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box5 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: 2em auto 2em;
     border: 0.5em solid;
@@ -140,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box6 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: auto auto 2em;
     border: 0.5em solid;
@@ -150,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box7 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: auto auto 2em;
     border: 0.5em solid;
@@ -160,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
 }
 .box8 {
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
     margin: auto auto 2em;
     border: 0.5em solid;
@@ -201,11 +209,11 @@ input[type=text], textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-  }
-  textarea {
-  height:150px;}
-  
-  input[type=submit] {
+}
+textarea {
+  height:150px;
+}
+input[type=submit] {
     background-color: rgb(131, 131, 131);
     color: rgb(0, 0, 0);
     font-size: 1.25em;
@@ -213,19 +221,52 @@ input[type=text], textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+input[type=submit]:hover {
     background-color: #fff;
-  }
-  
-  .container {
+}
+.container {
     border-radius: 1.25em;
     background-color: #000000;
     padding: 1.25em;
-    width: 20em;
+    width: 22em;
     box-sizing: border-box;
     margin: auto auto 4em;
     color: #fff;
     font-family:tomkin-regular, sans-serif;
-  }
+}
+.wrapper{
+    border-radius: 1.25em;
+    background-color: #000000;
+    padding: 1.25em;
+    width: 22em;
+    box-sizing: border-box;
+    margin: auto auto 4em;
+    color: #fff;
+    font-family:tomkin-regular, sans-serif;
+}
+.gallery{
+    background-color: rgb(131, 131, 131);
+    padding: 0.75em;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    margin: 0.75em auto 0.75em auto;
+}
+.gallery a {
+    text-decoration: none;
+}
+.info{
+    color: #fff;
+    padding: 0.25em;
+    text-align: center;
+}
+.work_photo{
+    border-radius: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
