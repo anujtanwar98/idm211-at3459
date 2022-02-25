@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'tomkin-medium';
-    src: url('fonts/tomkin-Medium.woff2');
+    src: url('fonts/tomkin-medium.woff2');
    }
 @font-face {
     font-family: 'tomkin-regular';
-    src:url('fonts/tomkin-Regular.woff2');
+    src:url('fonts/tomkin-regular.woff2');
    }
 body {
     background-color: #f5aa87;
